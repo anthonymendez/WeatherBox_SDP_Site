@@ -15,116 +15,150 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-<body>
-    <div class="container">
-        <h1>WeatherBox</h1>
-        <h2>SDP 20 - Team 3</h2>
-        <div class="row">
-            <!-- Project Picture Here -->
-        </div>
-        
-        <h3>WeatherBox Team</h3>
-        <div class="row" id="team">
-            <div class="col-sm">
-                <h4>Advisor</h4>
-                <h5>Michael Zink</h5>
-                <img class="img-thumbnail" src="files/TeamPhotos/MZ.jpg"/>
-            </div>
-            <div class="col-sm">
-                <h4>Software Lead</h4>
-                <h5>Anthony Mendez</h5>
-                <img class="img-thumbnail" src="files/TeamPhotos/AM.jpg"/>
-            </div>
-            <div class="col-sm">
-                <h4>Hardware Lead</h4>
-                <h5>Tina Maurer</h5>
-                <img class="img-thumbnail" src="files/TeamPhotos/TM.jpg"/>
-            </div>
-            <div class="col-sm">
-                <h4>Firmware</h4>
-                <h5>Stephan Kim</h5>
-                <img class="img-thumbnail" src="files/TeamPhotos/SK.jpg"/>
-            </div>
-            <div class="col-sm">
-                <h4>Website</h4>
-                <h5>Christian Norton</h5>
-                <img class="img-thumbnail" src="files/TeamPhotos/CN.jpg"/>
-            </div>
-        </div>
+    <header>
+        <!-- <div>
+            <h1>WeatherBox - SDP 20 - Team 3</h1>
+            <a href="#problem_statement">Problem Statement</a> |
+            <a href="#requirements_specifications">Specifications</a> |
+            <a href="#block_diagram">Diagram</a> |
+            <a href="#slide_deck">Slide Deck</a> |
+            <a href="#reports">Reports</a> |
+            <a href="#pics">Pictures</a> |
+            <a href="#vids">Videos</a>
+        </div> -->
+    </header>
 
-        <h3>Problem Statement</h3>
-        <div class="row" id="problem_statement">
-            <div class="col-sm">
-                <p class="text-justify">
-                    As part of pre-flight preparations, drone operators must check the local weather conditions to ensure a safe and successful flight. While commercial weather stations can effectively collect data for a specified area at the macroscale, weather conditions in that area at the microscale can vary greatly. Since flight conditions can be greatly affected by these constraints, drone operators need a more accurate localized weather map reading for the area of flight. Weather Box will create this localized map in a network of low power sensor modules to provide drone users with the required information via an easily readable interface. Our product will allow operators to quickly decide whether the conditions are suitable for safe drone flight.
-                </p>
+    <body>
+        <div class="container">
+            <div>
+                <h1>WeatherBox - SDP 20 - Team 3</h1>
+                <a href="#problem_statement">Problem Statement</a> |
+                <a href="#requirements_specifications">Specifications</a> |
+                <a href="#block_diagram">Diagram</a> |
+                <a href="#slide_deck">Slide Deck</a> |
+                <a href="#reports">Reports</a> |
+                <a href="#pics">Pictures</a> |
+                <a href="#vids">Videos</a>
             </div>
-        </div>
-
-        <h3>Requirements and Specifications</h3>
-        <div class="row" id="requirements_specifications">
-            <div class="col-sm">
-                <ol>
-                    <li>Each sensor package will take measurement at its location and the web server must create a map of at least 75x50 m2 based on data from sensor packages</li>
-                    <li>Each sensor package must be mountable and weighs less than one pound</li>
-                    <li>Each sensor package must measure wind, temperature, barometric pressure, humidity, dust, and air quality with 95% confidence</li>
-                    <li>Each sensor package must have a battery life of at least 24 hours</li>
-                    <li>Sensor package must be operable in the range of 20 degrees Fahrenheit to 100 degrees Fahrenheit</li>
-                    <li>Each sensor package should be able to transmit sensor data to a web server via WiFi</li>
-                    <li>Each sensor package must be manufacturable for at most $120</li>
-                </ol>
+            <h3>WeatherBox Team</h3>
+            <div class="row" id="team">
+                <div class="col-sm">
+                    <h4>Advisor</h4>
+                    <h5>Michael Zink</h5>
+                    <img class="img-thumbnail" src="files/TeamPhotos/MZ.jpg"/>
+                </div>
+                <div class="col-sm">
+                    <h4>Software Lead</h4>
+                    <h5>Anthony Mendez</h5>
+                    <img class="img-thumbnail" src="files/TeamPhotos/AM.jpg"/>
+                </div>
+                <div class="col-sm">
+                    <h4>Hardware Lead</h4>
+                    <h5>Tina Maurer</h5>
+                    <img class="img-thumbnail" src="files/TeamPhotos/TM.jpg"/>
+                </div>
+                <div class="col-sm">
+                    <h4>Firmware</h4>
+                    <h5>Stephan Kim</h5>
+                    <img class="img-thumbnail" src="files/TeamPhotos/SK.jpg"/>
+                </div>
+                <div class="col-sm">
+                    <h4>Website</h4>
+                    <h5>Christian Norton</h5>
+                    <img class="img-thumbnail" src="files/TeamPhotos/CN.jpg"/>
+                </div>
             </div>
-        </div>
 
-        <h3>Block Diagram</h3>
-        <div class="row" id="block_diagram">
-            <div class="col-sm">
-                <img src="files/block_diagram.png" class="img-fluid">
+            <h3>Problem Statement</h3>
+            <div class="row" id="problem_statement">
+                <div class="col-sm">
+                    <p class="text-justify">
+                        As part of pre-flight preparations, drone operators must check the local weather conditions to ensure a safe and successful flight. While commercial weather stations can effectively collect data for a specified area at the macroscale, weather conditions in that area at the microscale can vary greatly. Since flight conditions can be greatly affected by these constraints, drone operators need a more accurate localized weather map reading for the area of flight. Weather Box will create this localized map in a network of low power sensor modules to provide drone users with the required information via an easily readable interface. Our product will allow operators to quickly decide whether the conditions are suitable for safe drone flight.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <h3>Presentations</h3>
-        <div class="row" id="slide_deck">
-            <div class="col-sm">
-                <iframe id="pdr_slides" src="https://umass-my.sharepoint.com/personal/anthonymende_umass_edu/_layouts/15/Doc.aspx?sourcedoc={e4a5e03c-d38a-4efc-9b2d-ba3ec1d7e41b}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="400px" height="300px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+            <h3>Requirements and Specifications</h3>
+            <div class="row" id="requirements_specifications">
+                <div class="col-sm">
+                    <ol>
+                        <li>Each sensor package will take measurement at its location and the web server must create a map of at least 75x50 m2 based on data from sensor packages</li>
+                        <li>Each sensor package must be mountable and weighs less than one pound</li>
+                        <li>Each sensor package must measure wind, temperature, barometric pressure, humidity, dust, and air quality with 95% confidence</li>
+                        <li>Each sensor package must have a battery life of at least 24 hours</li>
+                        <li>Sensor package must be operable in the range of 20 degrees Fahrenheit to 100 degrees Fahrenheit</li>
+                        <li>Each sensor package should be able to transmit sensor data to a web server via WiFi</li>
+                        <li>Each sensor package must be manufacturable for at most $120</li>
+                    </ol>
+                </div>
             </div>
-            <div class="col-sm">
-                <iframe id="mdr_slides" src="https://umass-my.sharepoint.com/personal/anthonymende_umass_edu/_layouts/15/Doc.aspx?sourcedoc={c3e8035d-9bb0-4c8b-bd47-e812bf8376b4}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="400px" height="300px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+            <h3>Block Diagram</h3>
+            <div class="row" id="block_diagram">
+                <div class="col-sm">
+                    <img src="files/block_diagram.png" class="img-fluid">
+                </div>
             </div>
-        </div>
 
-        <h3>Reports</h3>
-        <div class="row" id="reports">
-            <div class="col-sm">
-                <p>Coming soon...</p>
+            <h3>Presentations</h3>
+            <div class="row slide_deck">
+                <div class="col-sm">
+                    <ol>
+                        <li>
+                            <a href="files/PDR/PDR.pptx">Preliminary Design Review Presentation</a>
+                        </li>
+                        <li>
+                            <a href="files/MDR/MDR.pptx">Midway Design Review Presentation</a>
+                        </li>
+                        <li>
+                            <a href="files/CDR/CDR.pptx">Comprehensive Design Review Presentation</a>
+                        </li>
+                        <li>
+                            <a href="files/FPR/FPR.pptx">Final Project Review Presentation</a>
+                        </li>
+                    </ol>
+                </div>            
             </div>
-        </div>
 
-        <h3>Pictures</h3>
-        <div class="w3-content w3-display-container row-fluid" id="pics">
-            <img class="col-sm pic" src="files/Media/outdoor_test_setup_0.jpg">
-            <img class="col-sm pic" src="files/Media/outdoor_test_setup_1.jpg">
-            <img class="col-sm pic" src="files/Media/outdoor_test_setup_2.jpg">
-            <button class="w3-button w3-display-left" style="background-color: white; border:gray; border-width: 2px; border-radius: 0px 12px 12px 0px;" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-display-right" style="background-color: white; border:gray; border-width: 2px; border-radius: 12px 0px 0px 12px;" onclick="plusDivs(+1)">&#10095;</button>
-        </div>
+            <h3>Reports</h3>
+            <div class="row" id="reports">
+                <div class="col-sm">
+                    <ol>
+                        <li>
+                            <a href="files/MDR/MDR_Report.docx">Midway Design Review Report</a>
+                        </li>
+                        <li>
+                            <a href="files/FPR/FPR_Report.docx">Final Project Review Report</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
 
-        <h3>Videos</h3>
-        <div class="row" id="pics">
-            <div class="col-sm">
-                <h4>Outdoor Test Demo</h4>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VANg6LAxmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>hmm</iframe>
+            <h3>Pictures</h3>
+            <div class="w3-content w3-display-container row-fluid" id="pics">
+                <img class="col-sm pic" src="files/Media/outdoor_test_setup_0.jpg">
+                <img class="col-sm pic" src="files/Media/outdoor_test_setup_1.jpg">
+                <img class="col-sm pic" src="files/Media/outdoor_test_setup_2.jpg">
+                <button class="w3-button w3-display-left" style="background-color: white; border:gray; border-width: 2px; border-radius: 0px 12px 12px 0px;" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" style="background-color: white; border:gray; border-width: 2px; border-radius: 12px 0px 0px 12px;" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+
+            <h3>Videos</h3>
+            <div class="row" id="vids">
+                <div class="col-sm">
+                    <h4>Outdoor Test Demo</h4>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VANg6LAxmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>hmm</iframe>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-</body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
 
 <footer>
 

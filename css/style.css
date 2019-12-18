@@ -1,0 +1,8 @@
+html {
+    background: gray;
+}
+
+body .container {
+    /* margin-top: 1%; */
+    background: white;
+}
