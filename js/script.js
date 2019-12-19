@@ -20,6 +20,11 @@ $(document).ready(function(){
     // TODO: Auto adjust size of powerpoint slides
     // $("#slide_deck")
     // $("#pdr_slides").height()
-
+    pad_height = $("body div nav").first().outerHeight()+"px" 
+    console.log(pad_height)
+    $("body").css(
+        'padding-top',
+        pad_height
+    );
     
 }); 
